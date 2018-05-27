@@ -59,9 +59,9 @@ cv::Mat project(cv::Mat projection_matrix, cv::Rect frame, pcl::PointCloud<pcl::
 		visible_points->push_back(*pt);
 		}
 
-		//cv::circle(plane, xy, 3, intensity, -1);
-		//plane.at<float>(xy) = intensity;
-		plane.at<float>(xy)=250;
+		//cv::circle(plane, xy, 3, 1, -1);
+		//plane.at<float>(xy) = 1;
+		//plane.at<float>(xy)=250;
 	}
 	}
 
@@ -69,12 +69,12 @@ cv::Mat project(cv::Mat projection_matrix, cv::Rect frame, pcl::PointCloud<pcl::
 	cv::normalize(plane, plane_gray, 0, 255, cv::NORM_MINMAX, CV_8UC1);
 	cv::dilate(plane_gray, plane_gray, cv::Mat());
 
+	//return plane;
 	return plane_gray;
 }
 
-cv::Mat project(cv::Mat& plane , cv::Mat projection_matrix, cv::Rect frame, pcl::PointCloud<pcl::PointXYZ> point_cloud, pcl::PointCloud<pcl::PointXYZ> *visible_points)
+void  project(cv::Mat& plane , cv::Mat projection_matrix, cv::Rect frame, pcl::PointCloud<pcl::PointXYZ> point_cloud, pcl::PointCloud<pcl::PointXYZ> *visible_points)
 {
-	 plane = cv::Mat::zeros(frame.size(), CV_32FC1);
 
 	for (pcl::PointCloud<pcl::PointXYZ>::iterator pt = point_cloud.points.begin(); pt < point_cloud.points.end(); pt++)
 	{
@@ -94,17 +94,10 @@ cv::Mat project(cv::Mat& plane , cv::Mat projection_matrix, cv::Rect frame, pcl:
 		visible_points->push_back(*pt);
 		}
 
-		//cv::circle(plane, xy, 3, intensity, -1);
-		//plane.at<float>(xy) = intensity;
-		plane.at<float>(xy)=300;
+		cv::circle(plane, xy, 1, CV_RGB(250,0,0));
 	}
 	}
 
-	cv::Mat plane_gray;
-	cv::normalize(plane, plane_gray, 0, 255, cv::NORM_MINMAX, CV_8UC1);
-	cv::dilate(plane_gray, plane_gray, cv::Mat());
-
-	return plane_gray;
 }
 
 void onMouse( int event, int x, int y, int f, void* g)

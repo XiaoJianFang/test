@@ -54,7 +54,7 @@ void Test(sensor_msgs::Image & lidarimage, cv::Mat img, pcl::PointCloud<pcl::Poi
 	 cv_bridge::CvImagePtr cv_ptr;
    try
    {
-     cv_ptr=cv_bridge::toCvCopy(lidarimage, sensor_msgs::image_encodings::MONO8);
+     cv_ptr=cv_bridge::toCvCopy(lidarimage, sensor_msgs::image_encodings::BGR8);
    }
    catch (cv_bridge::Exception& e)
    {
@@ -65,16 +65,15 @@ void Test(sensor_msgs::Image & lidarimage, cv::Mat img, pcl::PointCloud<pcl::Poi
    // sensor_msgs::Image to OpenCV Mat structure
    cv::Mat I = cv_ptr->image;
 
-    ROS_INFO_STREAM("cols="<<I.cols<< "\n");
-	ROS_INFO_STREAM(" rows="<<I.rows<< "\n");
-  
-	cv::Mat image_edge_laser = project(I, P, frame, scan, NULL);
-	//cv::threshold(image_edge_laser, image_edge_laser, 10, 255, 0);
+	 project(I, P, frame, scan, NULL);
+
+	cv::imwrite("/home/xiaojian/tools/catkin_lc/src/lidar_camera_calibration-master/log/test.jpg", I); 
 
 	cv::namedWindow("Test", cv::WINDOW_NORMAL);
 						
-	cv::imshow("Test", image_edge_laser);
+	cv::imshow("Test", I);
 	cv::waitKey(0);
+
 	
 }
 
