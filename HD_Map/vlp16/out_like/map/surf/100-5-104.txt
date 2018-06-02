@@ -1,0 +1,11 @@
+#reforence point coordinates
+100	5	104
+#the number of meter size cube
+49
+#sacle
+5
+#cubeLen
+50
+#cubeWidth	cubeHeight	cubeDepth
+100	5	100	
+#XYX dis
