@@ -1,0 +1,13 @@
+Region ignore Tokens:
+
+POI ignore Tokens:
+
+Location ignore Tokens:
+
+Metrics:
+* Region chars: 6 - 6
+* Region words: 1 - 1
+* Location chars: 6 - 24
+* Location words: 1 - 3
+* Max address words: 1
+* Max POI words: 2

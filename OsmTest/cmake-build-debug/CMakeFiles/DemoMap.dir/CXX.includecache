@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaojian/test/osm/test/demo.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+osmscout/Database.h
+-
+osmscout/POIService.h
+-
+osmscout/TypeFeatures.h
+-
+osmscout/FeatureReader.h
+-
+osmscout/util/CmdLineParsing.h
+-
+osmscout/util/GeoBox.h
+-
+iomanip
+-
+
