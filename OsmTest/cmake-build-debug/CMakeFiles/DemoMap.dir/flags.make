@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/xiaojian/test/osm/test/cmake-build-debug/include 
+CXX_INCLUDES = -I/home/xiaojian/git/test/OsmTest/cmake-build-debug/include 
 

@@ -1,3 +1,3 @@
-/home/xiaojian/test/osm/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/xiaojian/test/osm/test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/xiaojian/test/osm/test/cmake-build-debug/CMakeFiles/DemoMap.dir
+/home/xiaojian/git/test/OsmTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xiaojian/git/test/OsmTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/xiaojian/git/test/OsmTest/cmake-build-debug/CMakeFiles/DemoMap.dir
