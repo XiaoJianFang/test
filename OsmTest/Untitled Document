@@ -1,0 +1,3 @@
+../changshu/ 31.5960 120.7704 31.5858 120.7850 highway_construction
+
+./Import --destinationDirectory changshu changshu.osm
