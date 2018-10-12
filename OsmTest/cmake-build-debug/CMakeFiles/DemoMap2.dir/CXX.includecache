@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaojian/git/test/OsmTest/LookupText.cpp
+algorithm
+-
+iostream
+-
+osmscout/TextSearchIndex.h
+-
+osmscout/Database.h
+-
+osmscout/util/CmdLineParsing.h
+-
+

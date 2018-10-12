@@ -37,6 +37,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xiaojian/git/test/OsmTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="DemoMap2">
+				<Option output="/home/xiaojian/git/test/OsmTest/cmake-build-debug/DemoMap2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xiaojian/git/test/OsmTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xiaojian/git/test/OsmTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoMap2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xiaojian/git/test/OsmTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xiaojian/git/test/OsmTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xiaojian/git/test/OsmTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DemoMap2/fast">
+				<Option output="/home/xiaojian/git/test/OsmTest/cmake-build-debug/DemoMap2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xiaojian/git/test/OsmTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/xiaojian/git/test/OsmTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoMap2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/xiaojian/git/test/OsmTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/xiaojian/git/test/OsmTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/xiaojian/git/test/OsmTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="DemoMap">
 				<Option output="/home/xiaojian/git/test/OsmTest/cmake-build-debug/DemoMap" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/xiaojian/git/test/OsmTest/cmake-build-debug"/>
@@ -44,7 +90,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/xiaojian/git/test/OsmTest/cmake-build-debug/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -68,7 +113,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/xiaojian/git/test/OsmTest/cmake-build-debug/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -86,8 +130,11 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/xiaojian/git/test/OsmTest/demo.cpp">
+		<Unit filename="/home/xiaojian/git/test/OsmTest/LookupPOI.cpp">
 			<Option target="DemoMap"/>
+		</Unit>
+		<Unit filename="/home/xiaojian/git/test/OsmTest/LookupText.cpp">
+			<Option target="DemoMap2"/>
 		</Unit>
 		<Unit filename="/home/xiaojian/git/test/OsmTest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

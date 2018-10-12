@@ -1,0 +1,10 @@
+!wide "./data/lidardriver.txt"
+1800 
+!h height
+1000
+!low height
+-100
+!period
+10
+!rawVlpCollectFlag fault=1
+1

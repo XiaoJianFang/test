@@ -1,0 +1,8 @@
+PROJECT(main)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6) 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -std=c++0x")
+find_package(lcm)
+include_directories(${Lcm_INCLUDE_DIRS})
+
+ADD_EXECUTABLE(lcmlistener listener.cpp )
+TARGET_LINK_LIBRARIES(lcmlistener   lcm)
