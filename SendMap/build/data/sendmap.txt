@@ -1,8 +1,0 @@
-#gpsMode=0;slamposMode=1
-1
-#gps path
-GPSMap.txt
-#slam path
-SlamPOSMap.txt
-#point cloud map
-20CMGridMap.txt
