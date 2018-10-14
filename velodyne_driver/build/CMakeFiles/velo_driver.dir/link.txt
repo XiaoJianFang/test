@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++0x  -rdynamic CMakeFiles/velo_driver.dir/velodyne_node.cpp.o  -o velo_driver  -L/home/j/test/velodyne_driver/lib -Wl,-rpath,/home/j/test/velodyne_driver/lib:/usr/local/lib /usr/local/lib/liblcm.so.1.3.95 -Wl,-Bstatic -lVelodyne -lboost_system -lboost_thread -Wl,-Bdynamic -lpthread 
