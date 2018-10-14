@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DemoMap.dir/demo.cpp.o"
+  "CMakeFiles/DemoMap.dir/LookupPOI.cpp.o"
   "DemoMap.pdb"
   "DemoMap"
 )

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DemoMap2.dir/LookupText.cpp.o  -o DemoMap2 -losmscout 

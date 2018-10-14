@@ -1,0 +1,5 @@
+/home/xiaojian/tools/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/xiaojian/test/LidarDrivervector
+-- Boost version: 1.58.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xiaojian/test/LidarDrivervector/cmake-build-debug

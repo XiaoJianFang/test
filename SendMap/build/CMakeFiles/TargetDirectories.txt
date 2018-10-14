@@ -1,0 +1,3 @@
+/home/xiaojian/test/SendMap/build/CMakeFiles/edit_cache.dir
+/home/xiaojian/test/SendMap/build/CMakeFiles/rebuild_cache.dir
+/home/xiaojian/test/SendMap/build/CMakeFiles/SendMap.dir

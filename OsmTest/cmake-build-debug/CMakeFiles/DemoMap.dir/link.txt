@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/DemoMap.dir/demo.cpp.o  -o DemoMap -losmscout 
+/usr/bin/c++  -g   CMakeFiles/DemoMap.dir/LookupPOI.cpp.o  -o DemoMap -losmscout 
