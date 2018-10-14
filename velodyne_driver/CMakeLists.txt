@@ -1,0 +1,16 @@
+ PROJECT(main)
+ CMAKE_MINIMUM_REQUIRED(VERSION 2.6) 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -std=c++0x")
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/include)
+LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/lib)
+find_package(Threads)
+find_package(lcm)
+include_directories(${Lcm_INCLUDE_DIRS})
+
+SET(DIR_SRCS velodyne_node.cpp)
+ ADD_EXECUTABLE(velo_driver ${DIR_SRCS})
+TARGET_LINK_LIBRARIES(velo_driver lcm  libVelodyne.a libboost_system.a libboost_thread.a ${CMAKE_THREAD_LIBS_INIT})
+
+#TARGET_LINK_LIBRARIES(velo_driver libUDPServer.a libVelodyne.a libboost_system.a)libUDPServer.a
+#TARGET_LINK_LIBRARIES(velo_driver libVelodyne.a libboost_system.a libboost_thread.a)
+

@@ -1,0 +1,14 @@
+#include <stdio>
+#include <string>
+#include <velodyneHDL32E.h>
+
+int main(int argc, char *argv[])
+{
+       string  filePrefix="velo";
+       string fileSuffix="txt";
+
+	velodyneHDL32E velodyneDevice(sensorDevice::modeType::online, sensorDevice::saveType::save);
+        velodyneDevice.setFileName(filePrefix, fileSuffix);
+
+        return 0;
+}
