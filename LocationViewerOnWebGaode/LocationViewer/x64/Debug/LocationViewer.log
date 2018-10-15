@@ -1,0 +1,26 @@
+﻿生成启动时间为 2017/3/11 15:06:44。
+     1>项目“D:\2017\TEST\LocationViewer\LocationViewer\LocationViewer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt LocationViewer.cpp
+         LocationViewer.cpp
+     1>D:\Program Files\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>LocationViewer.cpp(176): warning C4101: “y”: 未引用的局部变量
+     1>LocationViewer.cpp(176): warning C4101: “x”: 未引用的局部变量
+     1>LocationViewer.cpp(201): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>LocationViewer.cpp(206): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>LocationViewer.cpp(213): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>LocationViewer.cpp(200): warning C4101: “end”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\2017\TEST\LocationViewer\x64\Debug\LocationViewer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"G:\lcm\glib-dev_2.26.0-1_win64\lib" opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\2017\TEST\LocationViewer\x64\Debug\LocationViewer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\2017\TEST\LocationViewer\x64\Debug\LocationViewer.lib" /MACHINE:X64 x64\Debug\LocationViewer.obj
+         x64\Debug\tinystr.obj
+         x64\Debug\tinyxml.obj
+         x64\Debug\tinyxmlerror.obj
+         x64\Debug\tinyxmlparser.obj
+         LocationViewer.vcxproj -> D:\2017\TEST\LocationViewer\x64\Debug\LocationViewer.exe
+     1>已完成生成项目“D:\2017\TEST\LocationViewer\LocationViewer\LocationViewer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.89

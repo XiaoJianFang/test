@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVelodyne.a  CMakeFiles/Velodyne_static.dir/sensorDevice.cpp.o CMakeFiles/Velodyne_static.dir/UDPServer.cpp.o CMakeFiles/Velodyne_static.dir/LiDAR.cpp.o CMakeFiles/Velodyne_static.dir/velodyneHDL32E.cpp.o
+/usr/bin/ranlib libVelodyne.a

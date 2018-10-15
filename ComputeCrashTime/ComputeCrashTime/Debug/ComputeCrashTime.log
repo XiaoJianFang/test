@@ -1,0 +1,53 @@
+﻿生成启动时间为 2017/4/17 13:39:23。
+     1>项目“D:\2017\TEST\ComputeCrashTime\ComputeCrashTime\ComputeCrashTime.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ComputeTime.cpp
+         ComputeTime.cpp
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(70): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(76): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(79): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(102): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(113): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(126): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(130): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(136): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(139): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(154): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(163): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(203): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(208): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(209): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(240): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(243): warning C4305: “-=”: 从“double”到“float”截断
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(249): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(258): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(316): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(347): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(383): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(407): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(436): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(475): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(507): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(514): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(590): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(648): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(680): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(687): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(224): warning C4101: “DangerIndex”: 未引用的局部变量
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(745): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(749): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(754): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(755): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(765): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(769): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>d:\2017\test\computecrashtime\computecrashtime\computetime.cpp(732): warning C4715: “ComputeCrashTime”: 不是所有的控件路径都返回值
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\2017\TEST\ComputeCrashTime\Debug\ComputeCrashTime.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\2017\TEST\ComputeCrashTime\Debug\ComputeCrashTime.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\2017\TEST\ComputeCrashTime\Debug\ComputeCrashTime.lib" /MACHINE:X86 Debug\ComputeTime.obj
+         ComputeCrashTime.vcxproj -> D:\2017\TEST\ComputeCrashTime\Debug\ComputeCrashTime.exe
+     1>已完成生成项目“D:\2017\TEST\ComputeCrashTime\ComputeCrashTime\ComputeCrashTime.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.98

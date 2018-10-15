@@ -1,0 +1,43 @@
+#include <iostream>
+#include <string>
+#include <velodyneHDL32E.h>
+#include <lcm/lcm-cpp.hpp>
+#include "PacketIbeo.hpp"
+#include "PacketVELD.hpp"
+
+int main(int argc, char *argv[])
+{
+     lcm::LCM lcm;
+     if(!lcm.good())
+        return 1;
+
+       string  filePrefix="velo";
+       string fileSuffix="txt";
+       vector<pointType> velodata;
+
+	velodyneHDL32E velodyneDevice(sensorDevice::modeType::online, sensorDevice::saveType::save);
+        velodyneDevice.setFileName(filePrefix, fileSuffix);
+
+      PacketIbeo IBEO;
+      PacketVELD VELD;
+      while(1)
+      {
+
+        velodyneDevice.getData(velodata,0);
+        std::cout<<"number"<<velodata.size()<< std::endl;
+if(velodata.size()>10)
+{
+
+       for(int i=0;i<40;i++)
+       {
+       VELD.Lane1x[i]=velodata[i].x;
+       VELD.Lane2x[i]=velodata[i].y;
+       VELD.Lane3x[i]=velodata[i].z;
+       VELD.Lane4x[i]=velodata[i].id;
+       }
+}
+
+       lcm.publish("VELD", &VELD);
+      }
+        return 0;
+}

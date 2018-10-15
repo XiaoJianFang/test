@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -std=c++0x  -shared -Wl,-soname,libVelodyne.so -o libVelodyne.so CMakeFiles/Velodyne.dir/sensorDevice.cpp.o CMakeFiles/Velodyne.dir/UDPServer.cpp.o CMakeFiles/Velodyne.dir/LiDAR.cpp.o CMakeFiles/Velodyne.dir/velodyneHDL32E.cpp.o 

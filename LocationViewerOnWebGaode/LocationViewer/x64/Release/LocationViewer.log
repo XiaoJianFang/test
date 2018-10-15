@@ -1,0 +1,19 @@
+﻿生成启动时间为 2017/4/21 15:34:42。
+     1>项目“D:\2017\TEST\LocationViewer\LocationViewer\LocationViewer.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt LocationViewer.cpp tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp
+         LocationViewer.cpp
+     1>d:\2017\test\locationviewer\locationviewer\SendMap.h(2): fatal error C1083: 无法打开包括文件: “Windows.h”: No such file or directory
+         tinystr.cpp
+     1>d:\2017\test\locationviewer\locationviewer\tinystr.h(30): fatal error C1083: 无法打开包括文件: “assert.h”: No such file or directory
+         tinyxml.cpp
+     1>tinyxml.cpp(25): fatal error C1083: 无法打开包括文件: “ctype.h”: No such file or directory
+         tinyxmlerror.cpp
+     1>d:\2017\test\locationviewer\locationviewer\tinyxml.h(35): fatal error C1083: 无法打开包括文件: “ctype.h”: No such file or directory
+         tinyxmlparser.cpp
+     1>tinyxmlparser.cpp(25): fatal error C1083: 无法打开包括文件: “ctype.h”: No such file or directory
+     1>已完成生成项目“D:\2017\TEST\LocationViewer\LocationViewer\LocationViewer.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.46

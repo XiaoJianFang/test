@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -std=c++0x  -shared -Wl,-soname,libUDPServer.so -o libUDPServer.so CMakeFiles/UDPServer.dir/UDPServer.cpp.o 

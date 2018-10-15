@@ -1,0 +1,19 @@
+﻿生成启动时间为 2017/3/9 22:13:55。
+     1>项目“D:\2017\TEST\HoughLine_Demo\HoughLine\HoughLine\HoughLine.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt HoughLinesDemo.cpp
+         HoughLinesDemo.cpp
+     1>HoughLinesDemo.cpp(165): warning C4101: “y”: 未引用的局部变量
+     1>HoughLinesDemo.cpp(165): warning C4101: “x”: 未引用的局部变量
+     1>HoughLinesDemo.cpp(192): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>HoughLinesDemo.cpp(197): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>HoughLinesDemo.cpp(204): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>HoughLinesDemo.cpp(191): warning C4101: “end”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\2017\TEST\HoughLine_Demo\HoughLine\x64\Debug\HoughLine.exe" /INCREMENTAL /NOLOGO /LIBPATH:"G:\lcm\glib-dev_2.26.0-1_win64\lib" opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\2017\TEST\HoughLine_Demo\HoughLine\x64\Debug\HoughLine.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\2017\TEST\HoughLine_Demo\HoughLine\x64\Debug\HoughLine.lib" /MACHINE:X64 x64\Debug\HoughLinesDemo.obj
+         HoughLine.vcxproj -> D:\2017\TEST\HoughLine_Demo\HoughLine\x64\Debug\HoughLine.exe
+     1>已完成生成项目“D:\2017\TEST\HoughLine_Demo\HoughLine\HoughLine\HoughLine.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.52

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/j/test/velodyne_driver/udp/UDPServer.cpp
+UDPServer.h
+/home/j/test/velodyne_driver/udp/UDPServer.h
+
+/home/j/test/velodyne_driver/udp/UDPServer.h
+iostream
+-
+memory
+-
+boost/asio.hpp
+-
+
